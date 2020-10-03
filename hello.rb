@@ -19,7 +19,7 @@ plus_ruby("like")
 plus_ruby("love")
 
 def plus_one(number)
-p number.next
+p number += 1
 end
 plus_one(3)
 plus_one(5)
